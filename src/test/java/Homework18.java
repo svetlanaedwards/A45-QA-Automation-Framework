@@ -25,8 +25,8 @@ public class Homework18 extends BaseTest {
  }
 
  public void playSong() {
-     WebElement playNextButton = driver.findelement(By.xpath("//i[@data-testid='play-next-btn']"));
-     WebElement playButton = driver.findelement(By.xpath("//span[@data-testid='play-btn']"));
+     WebElement playNextButton = driver.findElement(By.xpath("//i[@data-testid='play-next-btn']"));
+     WebElement playButton = driver.findElement(By.xpath("//span[@data-testid='play-btn']"));
 
      playNextButton.click();
      playButton.click();

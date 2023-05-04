@@ -40,7 +40,7 @@ public class BaseTest {
         navigateToPage();
     }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod
     public void closeBrowser() {
         driver.quit();
     }
