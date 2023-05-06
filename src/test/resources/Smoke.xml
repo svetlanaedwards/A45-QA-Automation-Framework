@@ -1,0 +1,18 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG">
+
+
+        <classes>
+            <class name="Homework18">
+                <methods>
+                    <include name="playASongTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
